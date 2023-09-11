@@ -8,8 +8,8 @@ Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+My name is Juan Ibañez, and I am Network Engineer at NTT Chile Ltd.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:juan.ibanez.ampuero@gmail.com)
