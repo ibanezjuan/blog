@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
 ### More Information
 
 My name is Juan Ibañez, and I am Network Engineer at NTT Chile Ltd.
