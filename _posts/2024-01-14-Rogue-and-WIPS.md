@@ -21,3 +21,6 @@ These are Rule:
 
 ### Rule 2° "Substring SSID"
 ![_config.yml]({{ site.baseurl }}/images/LABroguerule2.png)
+
+
+On C9800, I configure WLAN "LAB-WIFI"  with WPA2+802.1X Security and on WLC3504, I configure WLAN "LAB-WIFI" with WPA2+PSK.
