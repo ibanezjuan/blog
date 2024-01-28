@@ -9,7 +9,7 @@ In this blog I talk about Rogues APs and WIPS, and how works on my Cisco Lab.
 
 In the next topology, you can see my lab. I have a VirtualC9800, and two APs C9120 on Flex Mode associte with it, the SSID that I use is "LAB-WIFI". On the right I have a WLC3504, with only one AP 3702, and configure the same SSID "LAB-WIFI".
 
-![_config.yml]({{ site.baseurl }}/images/RogueLAB.png)
+![_config.yml]({{ site.baseurl }}/images/RogueLAB2.png)
 
 The scenario is the follow:
 I have my Corporate SSID “LAB-WIFI” on the Virtual9800 Platform, and I active two Rogue Rules. The first rule classifies to malicious and contain others SSID that have the same name of my managed SSID. The second rule classifies to malicious and contain others SSID that contain the sub-string “LAB-W”.
@@ -35,5 +35,9 @@ The first way is go to the C9800, in the menu "Monitiring" see the Rogue options
 
 The second way to confirm that contention is working, is make a 802.11 Capture. In the next picture We see a 802.11 capture on channel 11. I filter this capture to see only "Deauthentication" frames, and we see this type of frame, and when see the details, We confirm that, these frame have a Source MAC Addres "64f6.9dad.de34", and destination are Broadcast.
 
+### Deauth Frames
+![_config.yml]({{ site.baseurl }}/images/deauthbroad1.png)
 
+### Deauth Frames Details
+![_config.yml]({{ site.baseurl }}/images/deauthbroad2.png)
 
