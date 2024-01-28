@@ -12,5 +12,12 @@ In the next topology, you can see my lab. I have a VirtualC9800, and two APs C91
 ![_config.yml]({{ site.baseurl }}/images/RogueLAB.png)
 
 The scenario is the follow:
-I have my Corporate SSID “LAB-WIFI” on the Virtual9800 Platform, and I active two Rogue Rules. The first rule classifies to malicious and contain others SSID that have the same name of my managed SSID. The second rule classifies to malicious and contain others SSID that contain the sub-string “LAB”.
+I have my Corporate SSID “LAB-WIFI” on the Virtual9800 Platform, and I active two Rogue Rules. The first rule classifies to malicious and contain others SSID that have the same name of my managed SSID. The second rule classifies to malicious and contain others SSID that contain the sub-string “LAB-W”.
 
+These are Rule:
+
+### Rule 1° "Managed SSID"
+![_config.yml]({{ site.baseurl }}/images/LABroguerule1.png)
+
+### Rule 2° "Substring SSID"
+![_config.yml]({{ site.baseurl }}/images/LABroguerule2.png)
