@@ -24,3 +24,4 @@ These are Rule:
 
 
 On C9800, I configure WLAN "LAB-WIFI"  with WPA2+802.1X Security and on WLC3504, I configure WLAN "LAB-WIFI" with WPA2+PSK.
+![_config.yml]({{ site.baseurl }}/images/wlan-config.png)
