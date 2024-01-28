@@ -43,7 +43,7 @@ The second way to confirm that contention is working, is make a 802.11 Capture. 
 
 
 ## Conclusion
-The first conclusion is that rule are works xD. All contention works fine on 2.4Ghz band, When We needs make a contention on 5.0Ghz band the thinks are not easy, because the contention does not work on DFS channels. And the other think is, the contention does not work on SSID that have MFP, because the Mgmt of this type of SSID are protected. When the client see a Deauth frame, not make an actions and keep the connection.
+The first conclusion is that rule are works xD. All contention works fine on 2.4Ghz band, When We needs make a contention on 5.0Ghz band the things are not easy, because the contention does not work on DFS channels. And the other think is, the contention does not work on SSID that have MFP, because the Mgmt of this type of SSID are protected. When the client see a Deauth frame, not make an actions and keep the connection.
 
 Note: For this moment, I do not have a space for comment. Please if you have a comment, send me an email.
 
