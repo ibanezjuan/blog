@@ -12,8 +12,8 @@ By default, Wireshark is not tunnig. The default profile is most useful to analy
 Is most useful create your own “Profile” to apply all configurations to see 802.11 Frames. To “Add” new profile go to:
 Edit> Configuration Profiles, click on “+” bottom and add profile.
 
-![_config.yml]({{ site.baseurl }}/images/B2AddProfile.png)
+![_config.yml]({{ site.baseurl }}/images/2024/B2AddProfile.png)
 
 This profile will be select on the bottom-right side of the screen.
 
-![_config.yml]({{ site.baseurl }}/images/B2SelectProfile.png)
+![_config.yml]({{ site.baseurl }}/images/2024/B2SelectProfile.png)
