@@ -13,3 +13,7 @@ Is most useful create your own “Profile” to apply all configurations to see 
 Edit> Configuration Profiles, click on “+” bottom and add profile.
 
 ![_config.yml]({{ site.baseurl }}/images/B2AddProfile.png)
+
+This profile will be select on the bottom-right side of the screen.
+
+![_config.yml]({{ site.baseurl }}/images/B2SelectProfile.png)
