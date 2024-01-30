@@ -26,3 +26,18 @@ Once we have our own profile, we can do the Tunning 😄 The next feature that I
 * **Coloring Rules**
 * **Display Filters**
 * **Filter Butttons**
+
+
+## Columns Preference
+Columns help us access to information on the capture faster, by default WireShark have some columns, but you can add or delete these as your requirements. I use these:
+
+* **SSID** fields “wlan.ssid”
+* **SA** by default
+* **DA** by default
+* **PHY Type** fields “wlan_radio.phy”
+* **Channel** fields “wlan_radio.channel”
+* **DataRate** fields “wlan_radio.data_rate”
+* **SubType** fields “wlan.fc.type_subtype”
+* **Type** fields “wlan.fc.type”
+* **Retry** fields “wlan.fc.retry.expert”
+
