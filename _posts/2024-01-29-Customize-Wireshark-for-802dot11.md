@@ -17,3 +17,11 @@ Edit> Configuration Profiles, click on “+” bottom and add profile.
 This profile will be select on the bottom-right side of the screen.
 
 ![_config.yml]({{ site.baseurl }}/images/2024/B2SelectProfile.png)
+
+
+Once we have our own profile, we can do the Tunning 😄 The next feature that I will present are:
+
+* **Columns Preference**
+* **Coloring Rules**
+* **Display Filters**
+* **Filter Butttons**
