@@ -21,6 +21,7 @@ This profile will be select on the bottom-right side of the screen.
 
 Once we have our own profile, we can do the Tunning 😄 The next feature that I will present are:
 
+
 * **Columns Preference**
 * **Coloring Rules**
 * **Display Filters**
