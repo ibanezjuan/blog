@@ -41,10 +41,27 @@ Columns help us access to information on the capture faster, by default WireShar
 * **Type** fields “wlan.fc.type”
 * **Retry** fields “wlan.fc.retry.expert”
 
-For acces to this configuration, you go to **Edit/Preferences/Appearance/Columns**
+For access to this configuration, you go to **Edit/Preferences/Appearance/Columns**
 
 ![_config.yml]({{ site.baseurl }}/images/2024/B2ColumnsPreference.png)
 
 Other way to adds columns is right click on frame frame field (that you need adds) and select **Apply as Column**
 
 ![_config.yml]({{ site.baseurl }}/images/2024/B2applysascolumn.png)
+
+
+
+## Coloring Rules
+You can coloring frames to make more "readable" and make a difference with other frames. You can apply this feature for coloring "Management", "Control", and "Data" Frames, or apply these rules at Subtype Frames.
+For example, if you need coloring "Frame Type" you need three rule, each of these rule have the frame type.
+
+* **wlan.fc.type == 0**
+* **wlan.fc.type == 1**
+* **wlan.fc.type == 2**
+
+![_config.yml]({{ site.baseurl }}/images/2024/B2coloringrules.png)
+
+When you apply the rules, that view as follows
+
+![_config.yml]({{ site.baseurl }}/images/2024/B2colorinframes.png)
+
