@@ -59,6 +59,8 @@ For example, if you need coloring "Frame Type" you need three rule, each of thes
 * **wlan.fc.type == 1**
 * **wlan.fc.type == 2**
 
+For access to this configuration, you go to **View/Coloring Rules**
+
 ![_config.yml]({{ site.baseurl }}/images/2024/B2coloringrules.png)
 
 When you apply the rules, that view as follows
