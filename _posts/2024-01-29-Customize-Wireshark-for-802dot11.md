@@ -93,3 +93,8 @@ If you do not remember all filters o most useful filter to apply on Wireshark, y
 Then for access to Bookmaks, select the icon that is on left of filter bar.
 
 ![_config.yml]({{ site.baseurl }}/images/2024/B2bookmarkicon.png)
+
+**I hope that this content, has useful for your work or study.**
+
+
+
