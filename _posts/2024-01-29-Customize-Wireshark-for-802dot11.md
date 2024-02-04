@@ -94,6 +94,7 @@ Then for access to Bookmaks, select the icon that is on left of filter bar.
 
 ![_config.yml]({{ site.baseurl }}/images/2024/B2bookmarkicon.png)
 
+## End
 **I hope that this content, has useful for your work or study.**
 
 
