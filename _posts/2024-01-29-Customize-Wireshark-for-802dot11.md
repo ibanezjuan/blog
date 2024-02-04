@@ -67,3 +67,33 @@ When you apply the rules, that view as follows
 
 ![_config.yml]({{ site.baseurl }}/images/2024/B2colorinframes.png)
 
+
+## Bookmarks for filter
+If you do not remember all filters o most useful filter to apply on Wireshark, you can save them on **Bookmark**. This Bookmark it saves on **Profile** folder in our **Personal configuration**. For access to this folder you go to **Help/About Wireshark/Folders/Personal Configuration**. Then you go to Profile folder and save a file that **dfilters**, with any extension. On this file you adds filters as follow:
+
+```console
+
+"[RTS/CTS]" wlan.fc.type_subtype == 0x001b or wlan.fc.type_subtype == 0x001c
+
+"[RETRIES]" wlan.fc.retry == 1
+
+"[QOS]" wlan.qos.priority
+
+"[PWR MGMT]" wlan.fc.type_subtype == 0x0024
+
+"[PROBES]" wlan.fc.type_subtype == 0x0004 or wlan.fc.type_subtype == 0x0005
+
+"[DISAASSOCIATION]" wlan.fc.type_subtype eq 10
+
+"[DEAUTHS]" wlan.fc.type_subtype eq 12
+
+"[DATA]" wlan.fc.type eq 2
+
+"[BEACONS]" wlan.fc.type_subtype eq 8
+
+"[ASSOC REQ/RESP]" wlan.fc.type_subtype eq 0 or wlan.fc.type_subtype eq 1
+
+"-----------------------" :--------------------------
+
+```
+
