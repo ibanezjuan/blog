@@ -69,7 +69,7 @@ When you apply the rules, that view as follows
 
 
 ## Bookmarks for filter
-If you do not remember all filters o most useful filter to apply on Wireshark, you can save them on **Bookmark**. This Bookmark it saves on **Profile** folder in our **Personal configuration**. For access to this folder you go to **Help/About Wireshark/Folders/Personal Configuration**. Then you go to Profile folder and save a file that **dfilters**, with any extension. On this file you adds filters as follow:
+If you do not remember all filters o most useful filter to apply on Wireshark, you can save them on **Bookmark**. This Bookmark it saves on **Profile** folder in our **Personal configuration**. For access to this folder you go to **Help/About Wireshark/Folders/Personal Configuration**. Then you go to Profile folder and save a file with **dfilters** as name, with any extension. On this file you adds filters as follow:
 
 ```console
 "[RTS/CTS]" wlan.fc.type_subtype == 0x001b or wlan.fc.type_subtype == 0x001c
