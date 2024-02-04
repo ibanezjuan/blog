@@ -41,3 +41,10 @@ Columns help us access to information on the capture faster, by default WireShar
 * **Type** fields “wlan.fc.type”
 * **Retry** fields “wlan.fc.retry.expert”
 
+For acces to this configuration, you go to **Edit/Preferences/Appearance/Columns**
+
+![_config.yml]({{ site.baseurl }}/images/2024/B2ColumnsPreference.png)
+
+Other way to adds columns is right click on frame frame field (that you need adds) and select **Apply as Column**
+
+![_config.yml]({{ site.baseurl }}/images/2024/B2applysascolumn.png)
