@@ -96,6 +96,6 @@ Then for access to Bookmaks, select the icon that is on left of filter bar.
 
 ## End
 **I hope that this content, has useful for your work or study.**
-
+Please if you have a comment, send me an email.
 
 
